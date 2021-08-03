@@ -7,7 +7,7 @@
                 <span class="icon-bar icon-bar-3"></span>
             </button>
             <h1 class="logo">
-                <a href="${blog_url!}" rel="home"><img style="border-radius: 35%;" src="${blog_logo!}" alt="${blog_title!}"></a>
+                <a href="${blog_url!}" rel="home"><img style="border-radius: 50%;width: 45px;height: 45px" src="${blog_logo!}" alt="${blog_title!}"></a>
             </h1>
         </div>
         <div class="collapse navbar-collapse">
