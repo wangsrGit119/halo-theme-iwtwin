@@ -2,7 +2,11 @@
         <aside class="sidebar">
             <#if settings.weixin_gongzhonghao?? && settings.weixin_gongzhonghao != ''>
             <div id="wpcom-post-thumb-3" class="widget widget_post_thumb">
-                <p style="font-size:16px;">站长信息</p>
+                <#if settings.right_top_title?? && settings.right_top_title != ''>
+                 <p style="font-size:16px;">${settings.right_top_title}</p>
+                <#else>
+                     <p style="font-size:16px;">个人公众号</p>
+                </#if>
                 <ul>
                     <li class="item">
                         <div >

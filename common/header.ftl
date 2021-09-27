@@ -27,25 +27,3 @@
     </div>
 </header>
 
-
-
-<#--<header class="header">-->
-
-<#--    <nav class="navbar navbar-default navbar-fixed-top">-->
-<#--        <div class="container">-->
-<#--            <p class="navbar-text navbar-left">-->
-<#--                <a href="${blog_url!}" rel="home"><img src="${blog_logo!}" alt="${blog_title!}"></a>-->
-<#--            </p>-->
-<#--            <#include "*/module/menu.ftl">-->
-<#--            <form class="navbar-form navbar-right" action="${blog_url!}/search" method="get" role="search">-->
-<#--                <div class="form-group">-->
-<#--                    <input type="text" name="keyword" class="form-control " placeholder="输入关键词搜索...">-->
-<#--                </div>-->
-<#--                <button type="submit" class="btn btn-default">-->
-<#--                    <span type="submit" class="glyphicon glyphicon-search" aria-hidden="true"></span>-->
-<#--                </button>-->
-<#--            </form>-->
-<#--        </div>-->
-<#--    </nav>-->
-<#--    -->
-<#--</header>-->

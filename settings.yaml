@@ -30,7 +30,7 @@ genernal:
           label: Twilight
 
 topic:
-  label: 主题设置
+  label: 主题栏设置
   items:
     topic_first_name:
       name: topic_first_name
@@ -66,11 +66,16 @@ topic:
 aside:
   label: 轮播、侧边栏设置
   items:
+    right_top_title:
+      name: right_top_title
+      label: 自定义右上卡片名称
+      type: text
+      placeholder: '自定义右上卡片名称（例如：个人小程序等等）'
     weixin_gongzhonghao:
       name: weixin_gongzhonghao
-      label: 微信公众号
+      label: 卡片图片（一般为公众号图片）
       type: attachment
-      placeholder: '请选择微信公众号'
+      placeholder: '请选择图片'
     carousel_big:
       name: carousel_big
       label: 轮播图设置
